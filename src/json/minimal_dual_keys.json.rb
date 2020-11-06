@@ -12,11 +12,11 @@ require_relative '../lib/karabiner.rb'
 
 def main
   puts JSON.pretty_generate(
-    "title" => "Left CMD as backspace, Right CMD as return when pressed alone.",
+    "title" => "Minimal Dual Keys",
     "maintainers" => ["yeonsh"],
     "rules" => [
       {
-        "description" => "Minimal dual keys",
+        "description" => "Left CMD as backspace, Right CMD as return when pressed alone",
         "manipulators" => [
           generate_dual_key_rule("left_command", "delete_or_backspace", "left_command"),
           generate_dual_key_rule("right_command", "return_or_enter", "right_command"),
