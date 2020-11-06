@@ -20,7 +20,7 @@ def main
         "manipulators" => [
           generate_dual_key_rule("left_command", "delete_or_backspace", "left_command"),
           generate_dual_key_rule("right_command", "return_or_enter", "right_command"),
-          generate_dual_key_rule("left_shift", "return_or_enter", "left_shift"),
+          #generate_dual_key_rule("left_shift", "return_or_enter", "left_shift"),
         ],
       },
     ],
